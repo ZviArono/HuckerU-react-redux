@@ -19,7 +19,7 @@ function Counter() {
   return (
     <div>
       <button onClick={increment}>+</button>
-      <button onClick={decrement}>-</button>
+      <span>{counter >= 1 && <button onClick={decrement}>-</button>}</span>
       <h2>{counter}</h2>
     </div>
   );
