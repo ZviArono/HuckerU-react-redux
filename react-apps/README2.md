@@ -20,6 +20,14 @@ Date 30/11/2022
 
 - We used onClick event
 
+### 003_counter
+
+- Use useState to save and display the component state
+
+### homework
+
+- disable the minus button of the counter under 0
+
 # Links
 
 [Course Repo](https://github.com/bk-software/hu-react-redux)
